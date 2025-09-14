@@ -1,7 +1,7 @@
-package io.github.mcengine.extension.addon.essential.teleport.command;
+package io.github.mcengine.extension.addon.teleport.command;
 
 import io.github.mcengine.api.core.extension.logger.MCEngineExtensionLogger;
-import io.github.mcengine.extension.addon.essential.teleport.cache.TeleportCache;
+import io.github.mcengine.extension.addon.teleport.cache.TeleportCache;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;

@@ -1,4 +1,4 @@
-package io.github.mcengine.extension.addon.essential.teleport.tabcompleter;
+package io.github.mcengine.extension.addon.teleport.tabcompleter;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;

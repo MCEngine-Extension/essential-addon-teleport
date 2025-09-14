@@ -1,4 +1,4 @@
-package io.github.mcengine.extension.addon.essential.teleport.model;
+package io.github.mcengine.extension.addon.teleport.model;
 
 import org.bukkit.scheduler.BukkitTask;
 
