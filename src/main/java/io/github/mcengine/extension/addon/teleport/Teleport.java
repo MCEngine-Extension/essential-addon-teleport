@@ -44,7 +44,7 @@ public class Teleport implements IMCEngineEssentialAddOn {
         // Build cache with expiration callback that notifies players
         this.cache = new TeleportCache(plugin, (requesterId, targetId) -> {
             Player requester = Bukkit.getPlayer(requesterId);
-            Player target    = Bukkit.getPlayer(targetId);
+            Player target = Bukkit.getPlayer(targetId);
             if (requester != null && requester.isOnline()) {
                 requester.sendMessage(col("&cYour teleport request to &e" + (target != null ? target.getName() : "target") + " &cexpired."));
             }
@@ -131,8 +131,8 @@ public class Teleport implements IMCEngineEssentialAddOn {
     private void registerPermissions() {
         PluginManager pm = Bukkit.getPluginManager();
 
-        permTp  = new Permission(PERM_TP,  "Teleport instantly to a target player.", PermissionDefault.OP);
-        permTpa = new Permission(PERM_TPA, "Request to teleport to a player.",        PermissionDefault.TRUE);
+        permTp = new Permission(PERM_TP,  "Teleport instantly to a target player.", PermissionDefault.OP);
+        permTpa = new Permission(PERM_TPA, "Request to teleport to a player.", PermissionDefault.TRUE);
 
         if (pm.getPermission(PERM_TP) == null)  pm.addPermission(permTp);
         if (pm.getPermission(PERM_TPA) == null) pm.addPermission(permTpa);
