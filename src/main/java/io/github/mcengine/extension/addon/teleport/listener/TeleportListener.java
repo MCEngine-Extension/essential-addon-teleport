@@ -1,7 +1,7 @@
-package io.github.mcengine.extension.addon.essential.fly.listener;
+package io.github.mcengine.extension.addon.teleport.listener;
 
 import io.github.mcengine.api.core.extension.logger.MCEngineExtensionLogger;
-import io.github.mcengine.extension.addon.essential.fly.cache.TeleportCache;
+import io.github.mcengine.extension.addon.teleport.cache.TeleportCache;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerQuitEvent;
