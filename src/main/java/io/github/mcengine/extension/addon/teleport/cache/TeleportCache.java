@@ -1,6 +1,6 @@
-package io.github.mcengine.extension.addon.essential.fly.cache;
+package io.github.mcengine.extension.addon.essential.teleport.cache;
 
-import io.github.mcengine.extension.addon.essential.fly.model.TeleportRequest;
+import io.github.mcengine.extension.addon.essential.teleport.model.TeleportRequest;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.scheduler.BukkitTask;

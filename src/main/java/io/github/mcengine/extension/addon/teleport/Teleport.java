@@ -1,13 +1,13 @@
-package io.github.mcengine.extension.addon.essential.fly;
+package io.github.mcengine.extension.addon.essential.teleport;
 
 import io.github.mcengine.api.core.MCEngineCoreApi;
 import io.github.mcengine.api.core.extension.logger.MCEngineExtensionLogger;
 import io.github.mcengine.api.essential.extension.addon.IMCEngineEssentialAddOn;
 
-import io.github.mcengine.extension.addon.essential.fly.cache.TeleportCache;
-import io.github.mcengine.extension.addon.essential.fly.command.TeleportCommand;
-import io.github.mcengine.extension.addon.essential.fly.listener.TeleportListener;
-import io.github.mcengine.extension.addon.essential.fly.tabcompleter.TeleportTabCompleter;
+import io.github.mcengine.extension.addon.essential.teleport.cache.TeleportCache;
+import io.github.mcengine.extension.addon.essential.teleport.command.TeleportCommand;
+import io.github.mcengine.extension.addon.essential.teleport.listener.TeleportListener;
+import io.github.mcengine.extension.addon.essential.teleport.tabcompleter.TeleportTabCompleter;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
